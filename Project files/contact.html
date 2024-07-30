@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light Gray */
+            color: #333;
+        }
+
+        header {
+            background: #007bff; /* Blue */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Arial Black', Gadget, sans-serif;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin: 20px 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-form {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #ffffff; /* White */
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h2 {
+            margin-top: 0;
+            color: #007bff; /* Blue */
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #007bff; /* Blue */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3; /* Darker Blue */
+        }
+
+        .contact-info {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #ffffff; /* White */
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h2 {
+            color: #007bff; /* Blue */
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        .contact-info a {
+            color: #007bff; /* Blue */
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="create.php">Create Post</a></li>
+                <li><a href="groups.php">Groups</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="message.html" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or need further information, feel free to reach out to us using the contact form above or through the following methods:</p>
+            <p><strong>Email:</strong> <a href="mailto:support@blogster.com">support@blogster.com</a></p>
+            <p><strong>Phone:</strong> +91 9025531106</p>
+            <p><strong>Address:</strong> 25 Casa Major Road, Nungambakkam, Chennai-600001</p>
+        </section>
+    </main>
+</body>
+</html>

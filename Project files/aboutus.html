@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Light background */
+            color: #333;
+        }
+
+        header {
+            background: #007bff; /* Blue */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Arial Black', Gadget, sans-serif;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin: 20px 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .logout-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #ff4500; /* OrangeRed */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout-btn:hover {
+            background-color: #ff6347; /* Tomato */
+        }
+
+        main {
+            padding: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        section {
+            background: white; /* White */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            margin-top: 0;
+            font-size: 2rem;
+            color: #007bff; /* Blue */
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        section p {
+            line-height: 1.6;
+        }
+
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .team-member {
+            background: #ffffff; /* White */
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .team-member:hover {
+            background-color: #f0f8ff; /* Alice Blue */
+            transform: translateY(-5px);
+        }
+
+        .team-member h3 {
+            margin: 0;
+            color: #007bff; /* Blue */
+        }
+
+        .team-member p {
+            margin: 10px 0 0;
+            color: #666;
+        }
+
+        .highlight {
+            background: #e9ecef; /* Light Gray */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .highlight h3 {
+            margin-top: 0;
+            font-size: 1.8rem;
+            color: #007bff; /* Blue */
+        }
+
+        .highlight ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="create.php">Create Post</a></li>
+                <li><a href="groups.php">Groups</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="login.html" class="logout-btn">Logout</a>
+    </header>
+    <main>
+        <section>
+            <h2>Our Story</h2>
+            <p>Welcome to Blogster, where simplicity meets creativity. We believe in making blogging accessible and enjoyable for everyone. Our platform is designed to help you share your thoughts and ideas with ease.</p>
+            <p>At Blogster, our mission is to provide a user-friendly space where you can focus on your content without getting bogged down by complex tools. Whether you're an experienced blogger or just starting out, we aim to make your experience smooth and rewarding.</p>
+        </section>
+        <section class="highlight">
+            <h3>Our Mission</h3>
+            <p>Our mission is to simplify the blogging process, enabling anyone with a story to tell to do so easily and effectively. We strive to provide tools that empower our users to create engaging content without technical barriers.</p>
+        </section>
+        <section class="highlight">
+            <h3>Our Vision</h3>
+            <p>Our vision is to become the go-to platform for content creators of all levels. We aim to foster a community where ideas flourish and stories are shared with simplicity and style. We envision a space where creativity thrives and blogging is both accessible and enjoyable.</p>
+        </section>
+        <section class="highlight">
+            <h3>What We Offer</h3>
+            <p>We offer a straightforward blogging platform designed to meet your needs. Our features include:</p>
+            <ul>
+                <li>Easy-to-use editor for seamless content creation</li>
+                <li>Customizable templates to fit your style</li>
+                <li>SEO-friendly tools to help your content reach a wider audience</li>
+                <li>Responsive design to ensure your blog looks great on any device</li>
+                <li>Community support and resources to assist you along the way</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Meet the Creators</h2>
+            <div class="team">
+                <div class="team-member">
+                    <h3>Rohith Abishua J</h3>
+                    <p>Co-Founder & Developer</p>
+                </div>
+                <div class="team-member">
+                    <h3>Sushil M</h3>
+                    <p>Co-Founder & Developer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
